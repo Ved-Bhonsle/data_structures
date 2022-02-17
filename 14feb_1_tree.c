@@ -29,20 +29,6 @@ void preorder(struct node *tree)
 			preorder(tree->rptr);
 		}
 	}
-
-/*
-    if (node == NULL)
-        return;
- 
-    // first print data of node
-    printf("%c ", node->data);
- 
-    // then recur on left subtree
-    preorder(node->lptr);
- 
-    // now recur on right subtree
-    preorder(node->rptr);
-*/
 }
 
 void inorder(struct node *tree)
